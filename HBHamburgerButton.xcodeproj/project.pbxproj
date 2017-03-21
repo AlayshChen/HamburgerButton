@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					4278A65D19A09D61005AD7F3 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 					};
 					4278A66F19A09D61005AD7F3 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 						TestTargetID = 4278A65D19A09D61005AD7F3;
 					};
 				};
@@ -334,6 +336,7 @@
 				INFOPLIST_FILE = HBHamburgerButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -345,6 +348,7 @@
 				INFOPLIST_FILE = HBHamburgerButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -363,6 +367,7 @@
 				INFOPLIST_FILE = HBHamburgerButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBHamburgerButton.app/HBHamburgerButton";
 			};
 			name = Debug;
@@ -378,6 +383,7 @@
 				INFOPLIST_FILE = HBHamburgerButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBHamburgerButton.app/HBHamburgerButton";
 			};
 			name = Release;
@@ -401,6 +407,7 @@
 				4278A67C19A09D62005AD7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4278A67D19A09D62005AD7F3 /* Build configuration list for PBXNativeTarget "HBHamburgerButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +416,7 @@
 				4278A67F19A09D62005AD7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
